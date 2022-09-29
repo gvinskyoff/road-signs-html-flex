@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.dz__main {
+    max-width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-flow: column;
+
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dz__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dz__text__1 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    /* letter-spacing: 5px; */
+    text-align: center;
+}
+
+.dz__container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    padding: 50px 70px 50px 70px;
+
+    border-bottom: 3px solid #dbdbdb;
+}
+
+.dz__block {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    padding: 40px;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09);
+
+    transition: all 0.3s ease;
+}
+
+.dz__block:hover {
+    transform: scale(1.03);
+    border: 1px solid rgb(32, 65, 255);
+}
+
+.dz__image__b {
+    width: 140px;
+    height: 140px;
+}
+
+.dz__text__b {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dz__footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dz__text__2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
